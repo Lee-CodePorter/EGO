@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/manager-module/manager-web" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ego-shop/pom.xml" />
+        <option value="$PROJECT_DIR$/ego-code/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ego-shop/wx/pom.xml" />
+        <option value="$PROJECT_DIR$/item-module/item-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/item-service/item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/manager-module/manager-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/order-module/order-service -impl/pom.xml" />
+        <option value="$PROJECT_DIR$/sys-module/sys-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-login/pom.xml" />
+        <option value="$PROJECT_DIR$/wx/wx-service/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

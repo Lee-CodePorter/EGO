@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ego-shop</artifactId>
+        <groupId>top.leesh</groupId>
+        <version>1.0</version>
+        <relativePath>../ego-shop/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>wx-front</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>wx-service</module>
+        <module>wx-controller</module>
+        <module>wx-service-impl</module>
+        <module>wx-mapper</module>
+        <module>wx-pojo</module>
+    </modules>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>top.leesh</groupId>
+            <artifactId>ego-core</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring-boot-web-starter</artifactId>
+        </dependency>
+
+
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.activemq/activemq-all &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.activemq</groupId>-->
+<!--            <artifactId>activemq-all</artifactId>-->
+<!--            <version>5.15.9</version>-->
+<!--        </dependency>-->
+
+
+
+    </dependencies>
+
+
+
+</project>

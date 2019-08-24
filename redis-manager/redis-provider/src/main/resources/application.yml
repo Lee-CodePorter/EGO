@@ -1,0 +1,22 @@
+spring:
+  redis:
+    host: www.leesh.top
+    port: 6379
+    pool:
+      max-active: 20
+      max-idle: 15
+      min-idle: 2
+  application:
+    name: redis-provider
+dubbo:
+  application:
+    name: ${spring.application.name}
+    id:  ${spring.application.name}
+  protocol:
+    name: dubbo
+    port: 8889
+  registry:
+    protocol: zookeeper
+    address: www.leesh.top:2181
+  scan:
+    base-packages: top.leesh.redis.impl

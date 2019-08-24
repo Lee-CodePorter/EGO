@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: search-provider
+  datasource:
+    url: jdbc:mysql://mysql.leesh.top:3306/ego-shop
+    username: leo
+    password: Lishuhan747598
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    solr:
+      host: https://solr.leesh.top/solr/lee
+mybatis-plus:
+  mapper-locations: classpath*:/top/leesh/mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: top.leesh.pojo
+dubbo:
+  application:
+    name: ${spring.application.name}
+    id: ${spring.application.name}
+  registry:
+    protocol: zookeeper
+    address: www.leesh.top:2181
+  protocol:
+    port: 7412
+    name: dubbo
+  scan:
+    base-packages: top.leesh.service.impl

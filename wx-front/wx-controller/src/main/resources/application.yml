@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: wx-front
+  datasource:
+    url: jdbc:mysql://mysql.leesh.top:3306/ego-shop
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: leo
+    password: Lishuhan747598
+  data:
+    solr:
+      host: https://solr.leesh.top/solr/lee
+mybatis-plus:
+  mapper-locations: classpath*:/top/leesh/mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: top.leesh.pojo
+dubbo:
+  application:
+    name: wx-front
+    id: wx-front
+  registry:
+    protocol: zookeeper
+    address: www.leesh.top:2181
+  protocol:
+    name: dubbo
+  scan:
+    base-packages: top.leesh.controller
+wx:
+  appid: wxed39963c7477653c
+  secret: 912d6de3b7fb3485e4f57ad55068aaf4
+  url: https://api.weixin.qq.com/sns/jscode2session?appid=${wx.appid}&secret=${wx.secret}&js_code=%s&grant_type=authorization_code
+server:
+  port: 80

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="manager-pojo" />
+        <module name="manager-service" />
+        <module name="transport-service" />
+        <module name="order-service" />
+        <module name="search-service-impl" />
+        <module name="item-pojo" />
+        <module name="redis-provider" />
+        <module name="sys-mapper" />
+        <module name="sso-mapper" />
+        <module name="order-service-impl" />
+        <module name="wx-service-impl" />
+        <module name="ego-code" />
+        <module name="transport-mapper" />
+        <module name="member-service-impl" />
+        <module name="ego-core" />
+        <module name="sso-pojo" />
+        <module name="item-provider" />
+        <module name="item-mapper" />
+        <module name="manager-mapper" />
+        <module name="member-pojo" />
+        <module name="sys-service" />
+        <module name="member-service" />
+        <module name="wx-pojo" />
+        <module name="wx-controller" />
+        <module name="transport-provider" />
+        <module name="transport-pojo" />
+        <module name="order-mapper" />
+        <module name="search-service" />
+        <module name="member-mapper" />
+        <module name="search-mapper" />
+        <module name="sso-service" />
+        <module name="manager-servcie-impl" />
+        <module name="wx-mapper" />
+        <module name="sso-service-impl" />
+        <module name="wx-service" />
+        <module name="sys-pojo" />
+        <module name="redis-service" />
+        <module name="order-pojo" />
+        <module name="item-service" />
+        <module name="manager-web" />
+        <module name="sys-provider" />
+        <module name="search-pojo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ego" target="1.8" />
+      <module name="ego-code" target="1.8" />
+      <module name="ego-core" target="1.8" />
+      <module name="ego-shop" target="1.8" />
+      <module name="item-mapper" target="1.8" />
+      <module name="item-module" target="1.8" />
+      <module name="item-pojo" target="1.8" />
+      <module name="item-provider" target="1.8" />
+      <module name="item-service" target="1.8" />
+      <module name="item-service-impl" target="1.8" />
+      <module name="item-services" target="1.8" />
+      <module name="manager-mapper" target="1.8" />
+      <module name="manager-module" target="1.8" />
+      <module name="manager-pojo" target="1.8" />
+      <module name="manager-servcie-impl" target="1.8" />
+      <module name="manager-service" target="1.8" />
+      <module name="manager-service-impl" target="1.8" />
+      <module name="manager-web" target="1.8" />
+      <module name="member-mapper" target="1.8" />
+      <module name="member-module" target="1.8" />
+      <module name="member-pojo" target="1.8" />
+      <module name="member-service" target="1.8" />
+      <module name="member-service-impl" target="1.8" />
+      <module name="order-mapper" target="1.8" />
+      <module name="order-module" target="1.8" />
+      <module name="order-pojo" target="1.8" />
+      <module name="order-service" target="1.8" />
+      <module name="order-service-impl" target="1.8" />
+      <module name="redis-manager" target="1.8" />
+      <module name="redis-provider" target="1.8" />
+      <module name="redis-service" target="1.8" />
+      <module name="search-mapper" target="1.8" />
+      <module name="search-module" target="1.8" />
+      <module name="search-pojo" target="1.8" />
+      <module name="search-service" target="1.8" />
+      <module name="search-service-impl" target="1.8" />
+      <module name="sso-mapper" target="1.8" />
+      <module name="sso-module" target="1.8" />
+      <module name="sso-pojo" target="1.8" />
+      <module name="sso-service" target="1.8" />
+      <module name="sso-service-impl" target="1.8" />
+      <module name="sys-mapper" target="1.8" />
+      <module name="sys-module" target="1.8" />
+      <module name="sys-pojo" target="1.8" />
+      <module name="sys-provider" target="1.8" />
+      <module name="sys-service" target="1.8" />
+      <module name="sys-service-impl" target="1.8" />
+      <module name="transport-mapper" target="1.8" />
+      <module name="transport-module" target="1.8" />
+      <module name="transport-pojo" target="1.8" />
+      <module name="transport-provider" target="1.8" />
+      <module name="transport-service" target="1.8" />
+      <module name="wx" target="1.8" />
+      <module name="wx-controller" target="1.8" />
+      <module name="wx-front" target="1.8" />
+      <module name="wx-login" target="1.8" />
+      <module name="wx-mapper" target="1.8" />
+      <module name="wx-pojo" target="1.8" />
+      <module name="wx-service" target="1.8" />
+      <module name="wx-service-impl" target="1.8" />
+      <module name="wx_login" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ego" options="-parameters" />
+      <module name="ego-code" options="-parameters" />
+      <module name="ego-core" options="" />
+      <module name="item-mapper" options="" />
+      <module name="item-pojo" options="" />
+      <module name="item-provider" options="" />
+      <module name="item-service" options="" />
+      <module name="item-service-impl" options="" />
+      <module name="manager-module" options="" />
+      <module name="member-mapper" options="" />
+      <module name="member-pojo" options="" />
+      <module name="member-service" options="" />
+      <module name="member-service-impl" options="" />
+      <module name="order-mapper" options="" />
+      <module name="order-pojo" options="" />
+      <module name="order-service" options="" />
+      <module name="order-service-impl" options="" />
+      <module name="search-mapper" options="" />
+      <module name="search-pojo" options="" />
+      <module name="search-service" options="" />
+      <module name="search-service-impl" options="" />
+      <module name="sso-mapper" options="" />
+      <module name="sso-pojo" options="" />
+      <module name="sso-service" options="" />
+      <module name="sso-service-impl" options="" />
+      <module name="sys-mapper" options="" />
+      <module name="sys-pojo" options="" />
+      <module name="sys-service" options="" />
+      <module name="sys-service-impl" options="" />
+      <module name="transport-mapper" options="" />
+      <module name="transport-pojo" options="" />
+      <module name="transport-provider" options="" />
+      <module name="transport-service" options="" />
+      <module name="wx_login" options="-parameters" />
+    </option>
+  </component>
+</project>

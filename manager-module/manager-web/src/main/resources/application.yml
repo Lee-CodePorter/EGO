@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: leo
+    password: Lishuhan747598
+    url: jdbc:mysql://mysql.leesh.top:3306/ego-shop
+server:
+  port: 80
+dubbo:
+  application:
+    name: manager-web
+    id: manager-web
+  registry:
+    protocol: zookeeper
+    address: www.leesh.top:2181
+  protocol:
+    name: dubbo
+  scan:
+    base-packages: top.leesh.controller
+fdfs:
+  tracker-list: 47.102.156.35:22122

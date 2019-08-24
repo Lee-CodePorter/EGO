@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ego-shop</artifactId>
+        <groupId>top.leesh</groupId>
+        <version>1.0</version>
+        <relativePath>../ego-shop/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>order-pojo</module>
+        <module>order-mapper</module>
+        <module>order-service</module>
+        <module>order-service-impl</module>
+    </modules>
+    <artifactId>order-module</artifactId>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>top.leesh</groupId>
+            <artifactId>ego-core</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

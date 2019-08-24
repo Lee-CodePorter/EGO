@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ego-code/ego-code.iml" filepath="$PROJECT_DIR$/ego-code/ego-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-core/ego-core.iml" filepath="$PROJECT_DIR$/ego-core/ego-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ego-shop/ego-shop.iml" filepath="$PROJECT_DIR$/ego-shop/ego-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-module/item-mapper/item-mapper.iml" filepath="$PROJECT_DIR$/item-module/item-mapper/item-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-module/item-module.iml" filepath="$PROJECT_DIR$/item-module/item-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-module/item-pojo/item-pojo.iml" filepath="$PROJECT_DIR$/item-module/item-pojo/item-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-module/item-provider/item-provider.iml" filepath="$PROJECT_DIR$/item-module/item-provider/item-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-module/item-service/item-service.iml" filepath="$PROJECT_DIR$/item-module/item-service/item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-module/manager-mapper/manager-mapper.iml" filepath="$PROJECT_DIR$/manager-module/manager-mapper/manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-module/manager-module.iml" filepath="$PROJECT_DIR$/manager-module/manager-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-module/manager-pojo/manager-pojo.iml" filepath="$PROJECT_DIR$/manager-module/manager-pojo/manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-module/manager-servcie-impl/manager-servcie-impl.iml" filepath="$PROJECT_DIR$/manager-module/manager-servcie-impl/manager-servcie-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-module/manager-service/manager-service.iml" filepath="$PROJECT_DIR$/manager-module/manager-service/manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-module/manager-web/manager-web.iml" filepath="$PROJECT_DIR$/manager-module/manager-web/manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-module/member-mapper/member-mapper.iml" filepath="$PROJECT_DIR$/member-module/member-mapper/member-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-module/member-module.iml" filepath="$PROJECT_DIR$/member-module/member-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-module/member-pojo/member-pojo.iml" filepath="$PROJECT_DIR$/member-module/member-pojo/member-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-module/member-service/member-service.iml" filepath="$PROJECT_DIR$/member-module/member-service/member-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-module/member-service-impl/member-service-impl.iml" filepath="$PROJECT_DIR$/member-module/member-service-impl/member-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-module/order-mapper/order-mapper.iml" filepath="$PROJECT_DIR$/order-module/order-mapper/order-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-module/order-module.iml" filepath="$PROJECT_DIR$/order-module/order-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-module/order-pojo/order-pojo.iml" filepath="$PROJECT_DIR$/order-module/order-pojo/order-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-module/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-module/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-module/order-service-impl/order-service-impl.iml" filepath="$PROJECT_DIR$/order-module/order-service-impl/order-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-manager/redis-manager.iml" filepath="$PROJECT_DIR$/redis-manager/redis-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-manager/redis-provider/redis-provider.iml" filepath="$PROJECT_DIR$/redis-manager/redis-provider/redis-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-manager/redis-service/redis-service.iml" filepath="$PROJECT_DIR$/redis-manager/redis-service/redis-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-module/search-mapper/search-mapper.iml" filepath="$PROJECT_DIR$/search-module/search-mapper/search-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-module/search-module.iml" filepath="$PROJECT_DIR$/search-module/search-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-module/search-pojo/search-pojo.iml" filepath="$PROJECT_DIR$/search-module/search-pojo/search-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-module/search-service/search-service.iml" filepath="$PROJECT_DIR$/search-module/search-service/search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/search-module/search-service-impl/search-service-impl.iml" filepath="$PROJECT_DIR$/search-module/search-service-impl/search-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-module/sso-mapper/sso-mapper.iml" filepath="$PROJECT_DIR$/sso-module/sso-mapper/sso-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-module/sso-module.iml" filepath="$PROJECT_DIR$/sso-module/sso-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-module/sso-pojo/sso-pojo.iml" filepath="$PROJECT_DIR$/sso-module/sso-pojo/sso-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-module/sso-service/sso-service.iml" filepath="$PROJECT_DIR$/sso-module/sso-service/sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-module/sso-service-impl/sso-service-impl.iml" filepath="$PROJECT_DIR$/sso-module/sso-service-impl/sso-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sys-module/sys-mapper/sys-mapper.iml" filepath="$PROJECT_DIR$/sys-module/sys-mapper/sys-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sys-module/sys-module.iml" filepath="$PROJECT_DIR$/sys-module/sys-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sys-module/sys-pojo/sys-pojo.iml" filepath="$PROJECT_DIR$/sys-module/sys-pojo/sys-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sys-module/sys-provider/sys-provider.iml" filepath="$PROJECT_DIR$/sys-module/sys-provider/sys-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sys-module/sys-service/sys-service.iml" filepath="$PROJECT_DIR$/sys-module/sys-service/sys-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transport-module/transport-mapper/transport-mapper.iml" filepath="$PROJECT_DIR$/transport-module/transport-mapper/transport-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transport-module/transport-module.iml" filepath="$PROJECT_DIR$/transport-module/transport-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transport-module/transport-pojo/transport-pojo.iml" filepath="$PROJECT_DIR$/transport-module/transport-pojo/transport-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transport-module/transport-provider/transport-provider.iml" filepath="$PROJECT_DIR$/transport-module/transport-provider/transport-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transport-module/transport-service/transport-service.iml" filepath="$PROJECT_DIR$/transport-module/transport-service/transport-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-front/wx-controller/wx-controller.iml" filepath="$PROJECT_DIR$/wx-front/wx-controller/wx-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-front/wx-front.iml" filepath="$PROJECT_DIR$/wx-front/wx-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-front/wx-mapper/wx-mapper.iml" filepath="$PROJECT_DIR$/wx-front/wx-mapper/wx-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-front/wx-pojo/wx-pojo.iml" filepath="$PROJECT_DIR$/wx-front/wx-pojo/wx-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-front/wx-service/wx-service.iml" filepath="$PROJECT_DIR$/wx-front/wx-service/wx-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-front/wx-service-impl/wx-service-impl.iml" filepath="$PROJECT_DIR$/wx-front/wx-service-impl/wx-service-impl.iml" />
+    </modules>
+  </component>
+</project>
