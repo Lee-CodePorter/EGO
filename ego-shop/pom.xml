@@ -20,7 +20,7 @@
         <shiro-start.version>1.4.1</shiro-start.version>
         <shiro-redis.version>3.2.3</shiro-redis.version>
         <dubbo.version>2.6.5</dubbo.version>
-        <mybatis.version>3.5.2</mybatis.version>
+        <mybatis.version>3.5.6</mybatis.version>
         <zookeeper.version>0.11</zookeeper.version>
         <lombok.version>1.18.8</lombok.version>
         <mybatis-start.version>2.1.0</mybatis-start.version>
