@@ -24,7 +24,7 @@
         <zookeeper.version>0.11</zookeeper.version>
         <lombok.version>1.18.8</lombok.version>
         <mybatis-start.version>2.1.0</mybatis-start.version>
-        <mysql.version>8.0.16</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <mybatis-plus.version>3.0.7.1</mybatis-plus.version>
         <mybatis-plus-boot.version>3.1.2</mybatis-plus-boot.version>
         <jackson.version>2.9.9</jackson.version>
